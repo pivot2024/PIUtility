@@ -1,0 +1,124 @@
+Dependencies for Project 'qfaa_new_v12', Target 'flash_s130_nrf51_2.0.1_softdevice': (DO NOT MODIFY !)
+F (main.c)(0x67256E57)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\main.o --omf_browse ..\s130\components\softdevice\s130\hex\main.crf --depend ..\s130\components\softdevice\s130\hex\main.d)
+I (main.h)(0x66080796)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (config\sdk_config.h)(0x671AD976)()
+F (ble\board_support.c)(0x66080796)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\board_support.o --omf_browse ..\s130\components\softdevice\s130\hex\board_support.crf --depend ..\s130\components\softdevice\s130\hex\board_support.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+F (ble\board_support.h)(0x66080796)()
+F (ble\uartfly.c)(0x66ED6F0A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\uartfly.o --omf_browse ..\s130\components\softdevice\s130\hex\uartfly.crf --depend ..\s130\components\softdevice\s130\hex\uartfly.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (ble\uartfly.h)(0x66080796)()
+F (ble\power_manage.c)(0x66F7E831)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\power_manage.o --omf_browse ..\s130\components\softdevice\s130\hex\power_manage.crf --depend ..\s130\components\softdevice\s130\hex\power_manage.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (ble\power_manage.h)(0x66CB287E)()
+F (.\config.h)(0x671AD4D6)()
+F (.\main.h)(0x66080796)()
+F (.\ble\radio.h)(0x66F7F879)()
+F (.\ble\output_source_selection_mgr.c)(0x66080796)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\output_source_selection_mgr.o --omf_browse ..\s130\components\softdevice\s130\hex\output_source_selection_mgr.crf --depend ..\s130\components\softdevice\s130\hex\output_source_selection_mgr.d)
+I (ble\output_source_selection_mgr.h)(0x66A97C45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (ble\eeprom_Driver.h)(0x66080796)
+F (.\ble\output_source_selection_mgr.h)(0x66A97C45)()
+F (.\ble\eeprom.c)(0x66BE8CD8)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\eeprom.o --omf_browse ..\s130\components\softdevice\s130\hex\eeprom.crf --depend ..\s130\components\softdevice\s130\hex\eeprom.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61972BE0)
+I (C:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf51.h)(0x61972BE0)
+F (.\ble\eeprom.h)(0x66A97CE8)()
+F (.\qf_10028.h)(0x666E2448)()
+F (.\ble\radio_send.c)(0x670860AF)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\radio_send.o --omf_browse ..\s130\components\softdevice\s130\hex\radio_send.crf --depend ..\s130\components\softdevice\s130\hex\radio_send.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\S130\components\libraries\queue\nrf_queue.h)(0x6608075F)()
+F (..\S130\components\boards\boards.c)(0x66080796)()
+F (..\S130\components\boards\boards.h)(0x66080796)()
+F (..\S130\components\boards\pca10028.h)(0x66080796)()
+F (..\S130\components\libraries\bsp\bsp.h)(0x666D79B6)()
+F (.\qfbsp\bsp.c)(0x666E2258)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\bsp.o --omf_browse ..\s130\components\softdevice\s130\hex\bsp.crf --depend ..\s130\components\softdevice\s130\hex\bsp.d)
+I (qfbsp\bsp.h)(0x666D79B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+F (.\qfbsp\bsp_btn_ble.c)(0x666E2533)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\bsp_btn_ble.o --omf_browse ..\s130\components\softdevice\s130\hex\bsp_btn_ble.crf --depend ..\s130\components\softdevice\s130\hex\bsp_btn_ble.d)
+F (.\qfbsp\bsp_btn_ble.h)(0x6608075E)()
+F (..\S130\components\ble\common\ble_advdata.c)(0x6608075E)()
+F (..\S130\components\ble\ble_advertising\ble_advertising.c)(0x6608075E)()
+F (..\S130\components\ble\common\ble_conn_params.c)(0x6608075E)()
+F (..\S130\components\ble\common\ble_conn_state.c)(0x6608075E)()
+F (..\S130\components\ble\common\ble_srv_common.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\gatt_cache_manager.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\gatts_cache_manager.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\id_manager.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\peer_data.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\peer_data_storage.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\peer_database.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\peer_id.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\peer_manager.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\pm_buffer.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\pm_mutex.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\security_dispatcher.c)(0x6608075E)()
+F (..\S130\components\ble\peer_manager\security_manager.c)(0x6608075E)()
+F (..\S130\components\ble\ble_services\ble_bas\ble_bas.c)(0x6608075E)()
+F (..\S130\components\ble\ble_services\ble_dis\ble_dis.c)(0x6608075E)()
+F (..\S130\components\ble\ble_services\ble_hids\ble_hids.c)(0x66EE1B6B)()
+F (..\S130\components\drivers_nrf\clock\nrf_drv_clock.c)(0x6608075E)()
+F (..\S130\components\drivers_nrf\common\nrf_drv_common.c)(0x6608075E)()
+F (..\S130\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x6608075E)()
+F (..\S130\components\drivers_nrf\uart\nrf_drv_uart.c)(0x6608075E)()
+F (..\S130\components\libraries\button\app_button.c)(0x66EDF1F4)()
+F (..\S130\components\libraries\util\app_error.c)(0x6608075F)()
+F (..\S130\components\libraries\util\app_error_weak.c)(0x66A97CA1)()
+F (..\S130\components\libraries\scheduler\app_scheduler.c)(0x6608075F)()
+F (..\S130\components\libraries\timer\app_timer.c)(0x66080796)()
+F (..\S130\components\libraries\timer\app_timer_appsh.c)(0x6608075F)()
+F (..\S130\components\libraries\util\app_util_platform.c)(0x6608075F)()
+F (..\S130\components\libraries\crc16\crc16.c)(0x6608075E)()
+F (..\S130\components\libraries\fds\fds.c)(0x6608075F)()
+F (..\S130\components\libraries\fstorage\fstorage.c)(0x6608075F)()
+F (..\S130\components\libraries\hardfault\hardfault_implementation.c)(0x6608075F)()
+F (..\S130\components\libraries\util\nrf_assert.c)(0x6608075F)()
+F (..\S130\components\libraries\util\sdk_errors.c)(0x6608075F)()
+F (..\S130\components\libraries\util\sdk_mapped_flags.c)(0x6608075F)()
+F (..\S130\components\libraries\sensorsim\sensorsim.c)(0x6608075F)()
+F (..\S130\components\libraries\uart\app_uart_fifo.c)(0x6608075F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\app_uart_fifo.o --omf_browse ..\s130\components\softdevice\s130\hex\app_uart_fifo.crf --depend ..\s130\components\softdevice\s130\hex\app_uart_fifo.d)
+F (..\S130\components\libraries\uart\retarget.c)(0x6608075F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\retarget.o --omf_browse ..\s130\components\softdevice\s130\hex\retarget.crf --depend ..\s130\components\softdevice\s130\hex\retarget.d)
+F (..\S130\components\libraries\fifo\app_fifo.c)(0x6608075F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\app_fifo.o --omf_browse ..\s130\components\softdevice\s130\hex\app_fifo.crf --depend ..\s130\components\softdevice\s130\hex\app_fifo.d)
+F (..\S130\components\libraries\queue\nrf_queue.c)(0x6608075F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\nrf_queue.o --omf_browse ..\s130\components\softdevice\s130\hex\nrf_queue.crf --depend ..\s130\components\softdevice\s130\hex\nrf_queue.d)
+F (..\S130\components\libraries\log\src\nrf_log_backend_serial.c)(0x6608075F)()
+F (..\S130\components\libraries\log\src\nrf_log_frontend.c)(0x6608075F)()
+F (..\S130\external\segger_rtt\RTT_Syscalls_KEIL.c)(0x6608075F)()
+F (..\S130\external\segger_rtt\SEGGER_RTT.c)(0x6608075F)()
+F (..\S130\external\segger_rtt\SEGGER_RTT_printf.c)(0x6608075F)()
+F (..\S130\components\softdevice\common\softdevice_handler\softdevice_handler.c)(0x6608075F)()
+F (..\S130\components\softdevice\common\softdevice_handler\softdevice_handler_appsh.c)(0x6608075F)()
+F (.\HIDReportData.h)(0x66080796)()
+F (.\ble_server.h)(0x66A97CA6)()
+F (.\ble_server.c)(0x66BB1CF2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\ble_server.o --omf_browse ..\s130\components\softdevice\s130\hex\ble_server.crf --depend ..\s130\components\softdevice\s130\hex\ble_server.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (main.h)(0x66080796)
+F (.\ble_hid_server.h)(0x66080796)()
+F (.\ble_hid_server.c)(0x66BB3CB9)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\ble_hid_server.o --omf_browse ..\s130\components\softdevice\s130\hex\ble_hid_server.crf --depend ..\s130\components\softdevice\s130\hex\ble_hid_server.d)
+I (ble_server.h)(0x66A97CA6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\ble_bas_server.c)(0x66BE8BEE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\ble_bas_server.o --omf_browse ..\s130\components\softdevice\s130\hex\ble_bas_server.crf --depend ..\s130\components\softdevice\s130\hex\ble_bas_server.d)
+I (main.h)(0x66080796)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\ble_bas_server.h)(0x66080796)()
+F (..\S130\components\proprietary_rf\esb\nrf_esb.c)(0x6608075F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I config\ble_app_hids_keyboard_pca10028_s130 -I config -I ..\config-I.\RTE\_flash_s130_nrf51_2.0.1_softdevice-IC:\Users\w0011\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF51422_XXAC-o ..\s130\components\softdevice\s130\hex\nrf_esb.o --omf_browse ..\s130\components\softdevice\s130\hex\nrf_esb.crf --depend ..\s130\components\softdevice\s130\hex\nrf_esb.d)
+F (..\S130\components\proprietary_rf\esb\nrf_esb.h)(0x66C5DAE8)()
+F (RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s)(0x66080796)()
+F (RTE\Device\nRF51422_xxAC\system_nrf51.c)(0x66080796)()
+F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x66080796)()
+F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x66080796)()
