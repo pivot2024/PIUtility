@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebUART Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        #connect, #send {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #connect:hover, #send:hover {
+            background-color: #45a049;
+        }
+
+        #log {
+            width: 80%;
+            max-width: 600px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        #input {
+            width: 80%;
+            max-width: 600px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button:focus, input:focus, textarea:focus {
+            outline: none;
+            box-shadow: 0 0 5px #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebUART</h1>
+    <button id="connect">Connect</button>
+    <textarea id="log" rows="10" cols="50" readonly></textarea>
+
+
+    <input id="input" type="text" placeholder="Type your message">
+    <button id="send">Send</button>
+
+    <script>
+        let port;
+        let reader;
+        let writer;
+    
+        const logElement = document.getElementById('log');
+    
+             // 使用 MutationObserver 监测内容变化
+             const observer = new MutationObserver(() => {
+            // 使用 requestAnimationFrame 确保内容完全渲染后再检查滚动状态
+            requestAnimationFrame(() => {
+                // 判断是否需要滚动到底部
+                const isAtBottom =
+                    logElement.scrollTop + logElement.clientHeight >= logElement.scrollHeight - 1;
+        
+                if (!isAtBottom) {
+                    // 强制滚动到最底部
+                    logElement.scrollTop = logElement.scrollHeight;
+                }
+
+                
+            });
+        });
+        
+        // 开始监听 textarea 的内容变化
+        observer.observe(logElement, { characterData: true, childList: true, subtree: true });
+    
+        document.getElementById('connect').addEventListener('click', async () => {
+            try {
+                // 请求串口设备权限
+                port = await navigator.serial.requestPort();
+                await port.open({ baudRate: 115200 });
+    
+                writer = port.writable.getWriter();
+                reader = port.readable.getReader();
+    
+                // 开始读取数据
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break; // 结束时停止读取
+                    logElement.value += new TextDecoder().decode(value);
+                    // 手动触发 MutationObserver
+                observer.observe(logElement, { childList: true, subtree: true });
+                }
+            } catch (err) {
+                console.error('Error:', err);
+            }
+        });
+    
+        document.getElementById('send').addEventListener('click', async () => {
+            const message = document.getElementById('input').value;
+            if (writer) {
+                await writer.write(new TextEncoder().encode(message + '\n'));
+            }
+        });
+    
+        // 页面卸载时清理资源
+        window.addEventListener('beforeunload', async () => {
+            if (reader) await reader.releaseLock();
+            if (writer) await writer.releaseLock();
+            if (port) await port.close();
+            observer.disconnect(); // 停止监听
+        });
+    </script>
+
+    </script>
+</body>
+</html>
